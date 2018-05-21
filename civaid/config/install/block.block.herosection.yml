@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a966f889-0bbb-4628-bdd0-7ade69f1ce6e'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - civaid
+third_party_settings:
+  block_class:
+    classes: ''
+id: herosection
+theme: civaid
+region: hero
+weight: -8
+provider: null
+plugin: 'block_content:a966f889-0bbb-4628-bdd0-7ade69f1ce6e'
+settings:
+  id: 'block_content:a966f889-0bbb-4628-bdd0-7ade69f1ce6e'
+  label: 'Hero section'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

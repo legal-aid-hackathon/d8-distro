@@ -1,0 +1,13 @@
+name: Api.AI Webhook
+type: module
+description: Api.AI Webhook implementation
+# core: 8.x
+package: Chatbot
+test_dependencies:
+  - chatbot_api
+
+# Information added by Drupal.org packaging script on 2017-10-05
+version: '8.x-1.0-beta2'
+core: '8.x'
+project: 'api_ai_webhook'
+datestamp: 1507214353

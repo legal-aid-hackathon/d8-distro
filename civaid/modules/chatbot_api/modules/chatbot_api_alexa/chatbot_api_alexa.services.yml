@@ -1,0 +1,5 @@
+services:
+  chatbot_api_alexa.request_subscriber:
+    class: Drupal\chatbot_api_alexa\EventSubscriber\RequestSubscriber
+    tags:
+      - { name: event_subscriber }

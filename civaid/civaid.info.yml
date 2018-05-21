@@ -1,0 +1,93 @@
+name: CivAid
+type: profile
+description: 'A Drupal 8 distribution for Legal Aid organizations.'
+core: 8.x
+
+# Optional: Declare your installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+distribution:
+  name: CivAid
+  # If you want your distribution to pre-select a language you can specify
+  # the language code, as well. This will prevent the user from selecting
+  # a language code in the user interface. While not recommended for generic
+  # community distributions, this can be very useful for distributions that
+  # are tailored to a language-specific audience (for example government
+  # institutions in a certain country) but also site-specific installation
+  # profiles. Note that this language code will also be used when installing
+  # the site via Drush.
+  langcode: en
+
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+  - automated_cron
+  - big_pipe
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
+  - menu_link_content
+  - filter
+  - dynamic_page_cache
+  - page_cache
+  - menu_ui
+  - toolbar
+  - tour
+  - update
+  - user
+  - views
+  - views_ui
+  - admin_toolbar
+  - admin_toolbar_tools
+  - asset_injector
+  - ctools
+  - datetime
+  - file
+  - image
+  - link
+  - options
+  - text
+  - block_class
+  - libraries
+  - pathauto
+  - token
+  - webform
+  - webform_node
+  - webform_ui
+  - rest
+  - serialization
+
+# List any themes that should be installed as part of the installation
+# profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+ - stable
+ - classy
+ - seven
+ - uswds
+ - civaid

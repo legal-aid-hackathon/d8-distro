@@ -1,0 +1,15 @@
+name: Chatbot API - Views Intent Test
+type: module
+description: Test Views Intent display for Chatbot API
+hidden: true
+# core: 8.x
+package: Chatbot
+dependencies:
+  - chatbot_api
+  - views
+
+# Information added by Drupal.org packaging script on 2018-04-15
+version: '8.x-1.0-rc02'
+core: '8.x'
+project: 'chatbot_api'
+datestamp: 1523815542

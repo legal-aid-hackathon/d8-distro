@@ -1,0 +1,35 @@
+features:
+  node_user_picture: 0
+  comment_user_picture: 0
+  comment_user_verification: 0
+  favicon: 0
+logo:
+  use_default: 0
+  path: ''
+favicon:
+  use_default: 0
+  path: ''
+uswds_header_style: extended
+uswds_header_mega: 0
+uswds_search: 1
+uswds_government_banner: 0
+uswds_footer_style: big
+uswds_footer_agency: 1
+uswds_footer_agency_name: Civvis
+uswds_footer_agency_url: 'https://civvis.com'
+uswds_footer_agency_logo: ''
+uswds_contact_center: Civvis
+uswds_email: info@civvis.com
+uswds_phone: 984-212-2503
+uswds_facebook: WeAreCivvis
+uswds_twitter: WeAreCivvis
+uswds_youtube: Civvis
+uswds_rss: ''
+uswds_paragraphs_edge_to_edge: 1
+uswds_menu_accordion_duplicate_parent: 0
+uswds_menu_bypass:
+  footer_menu: footer_menu
+  primary_menu: 0
+  secondary_menu: 0
+  mobile_menu: 0
+  sidebar_first: 0

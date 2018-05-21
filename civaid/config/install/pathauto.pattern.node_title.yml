@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_title
+label: 'Node Title'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  776a34a7-10d9-4a63-a879-1a898e7c2f00:
+    id: node_type
+    bundles:
+      article: article
+      interior_page: interior_page
+      landing_page: landing_page
+      page: page
+      webform: webform
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 776a34a7-10d9-4a63-a879-1a898e7c2f00
+selection_logic: and
+weight: -5
+relationships: {  }
